@@ -1,0 +1,2447 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add author",
+    "content_type": 7,
+    "codename": "add_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change author",
+    "content_type": 7,
+    "codename": "change_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete author",
+    "content_type": 7,
+    "codename": "delete_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view author",
+    "content_type": 7,
+    "codename": "view_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add publisher",
+    "content_type": 8,
+    "codename": "add_publisher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change publisher",
+    "content_type": 8,
+    "codename": "change_publisher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete publisher",
+    "content_type": 8,
+    "codename": "delete_publisher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view publisher",
+    "content_type": 8,
+    "codename": "view_publisher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add book",
+    "content_type": 9,
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change book",
+    "content_type": 9,
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete book",
+    "content_type": 9,
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view book",
+    "content_type": 9,
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$8fkbpBPwZxw4zP02uXqO4f$Bti/hn+2sgsbwncyOxbPJF/IGbqWiLPXiqfLVlAJZMY=",
+    "last_login": "2025-06-25T02:50:52.310Z",
+    "is_superuser": true,
+    "username": "simon",
+    "first_name": "",
+    "last_name": "",
+    "email": "markene2010@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-06-24T07:01:28.460Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "myapp",
+    "model": "author"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "myapp",
+    "model": "publisher"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "myapp",
+    "model": "book"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "015nilfj8alsw8j9aevg1agypzcvca75",
+  "fields": {
+    "session_data": ".eJxVjDEOwjAMRe-SGUUJtUPLyM4ZIjt2SAGlUtNOiLtDpQ6w_vfef5lI61Li2nSOo5iz8ebwuzGlh9YNyJ3qbbJpqss8st0Uu9Nmr5Po87K7fweFWvnW4DN6hOCkdyQYVLL6xJpxUADgEFC8Ox2RMUmHikNKTroeiNERknl_AOZjOCQ:1uTxpm:dA9i7Aq8pi6f6WW8aQBukD4xbH2N1-FA922EwFKYbvg",
+    "expire_date": "2025-07-08T07:12:46.133Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3by1rhhgszdrfer3tdgz3x4mkmcxunb9",
+  "fields": {
+    "session_data": ".eJxVjDEOwjAMRe-SGUUJtUPLyM4ZIjt2SAGlUtNOiLtDpQ6w_vfef5lI61Li2nSOo5iz8ebwuzGlh9YNyJ3qbbJpqss8st0Uu9Nmr5Po87K7fweFWvnW4DN6hOCkdyQYVLL6xJpxUADgEFC8Ox2RMUmHikNKTroeiNERknl_AOZjOCQ:1uUGDs:tWWc8UHQB6zdjmTlv_Nc_PUIZirBfZVwXU3MaIMFYbg",
+    "expire_date": "2025-07-09T02:50:52.338Z"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 1,
+  "fields": {
+    "name": "Barbara Jackson",
+    "email": "barbara.jackson@example.com",
+    "bio": "Barbara Jackson is a renowned author with 4 published works.",
+    "birth_date": "1961-03-14"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 2,
+  "fields": {
+    "name": "James Smith",
+    "email": "james.smith@example.com",
+    "bio": "James Smith is a renowned author with 3 published works.",
+    "birth_date": "1987-12-02"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 3,
+  "fields": {
+    "name": "Michael White",
+    "email": "michael.white@example.com",
+    "bio": "Michael White is a renowned author with 5 published works.",
+    "birth_date": "1980-12-25"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 4,
+  "fields": {
+    "name": "Richard Taylor",
+    "email": "richard.taylor@example.com",
+    "bio": "Richard Taylor is a renowned author with 19 published works.",
+    "birth_date": "2000-06-06"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 5,
+  "fields": {
+    "name": "Karen Davis",
+    "email": "karen.davis@example.com",
+    "bio": "Karen Davis is a renowned author with 7 published works.",
+    "birth_date": "1999-02-03"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 6,
+  "fields": {
+    "name": "James Anderson",
+    "email": "james.anderson@example.com",
+    "bio": "James Anderson is a renowned author with 13 published works.",
+    "birth_date": "1994-06-30"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 7,
+  "fields": {
+    "name": "Richard Williams",
+    "email": "richard.williams@example.com",
+    "bio": "Richard Williams is a renowned author with 1 published works.",
+    "birth_date": "1967-03-28"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 8,
+  "fields": {
+    "name": "Jessica Martin",
+    "email": "jessica.martin@example.com",
+    "bio": "Jessica Martin is a renowned author with 5 published works.",
+    "birth_date": "1962-07-15"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 9,
+  "fields": {
+    "name": "Susan Smith",
+    "email": "susan.smith@example.com",
+    "bio": "Susan Smith is a renowned author with 12 published works.",
+    "birth_date": "1961-08-23"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 10,
+  "fields": {
+    "name": "Robert Garcia",
+    "email": "robert.garcia@example.com",
+    "bio": "Robert Garcia is a renowned author with 2 published works.",
+    "birth_date": "2001-10-23"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 11,
+  "fields": {
+    "name": "James Davis",
+    "email": "james.davis@example.com",
+    "bio": "James Davis is a renowned author with 2 published works.",
+    "birth_date": "1957-03-16"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 12,
+  "fields": {
+    "name": "Linda White",
+    "email": "linda.white@example.com",
+    "bio": "Linda White is a renowned author with 14 published works.",
+    "birth_date": "1957-05-17"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 13,
+  "fields": {
+    "name": "Sarah Moore",
+    "email": "sarah.moore@example.com",
+    "bio": "Sarah Moore is a renowned author with 17 published works.",
+    "birth_date": "1963-01-26"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 14,
+  "fields": {
+    "name": "Michael Johnson",
+    "email": "michael.johnson@example.com",
+    "bio": "Michael Johnson is a renowned author with 13 published works.",
+    "birth_date": "1972-01-28"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 15,
+  "fields": {
+    "name": "Barbara Rodriguez",
+    "email": "barbara.rodriguez@example.com",
+    "bio": "Barbara Rodriguez is a renowned author with 19 published works.",
+    "birth_date": "1998-10-25"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 16,
+  "fields": {
+    "name": "David Martinez",
+    "email": "david.martinez@example.com",
+    "bio": "David Martinez is a renowned author with 11 published works.",
+    "birth_date": "1995-11-28"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 17,
+  "fields": {
+    "name": "David Thompson",
+    "email": "david.thompson@example.com",
+    "bio": "David Thompson is a renowned author with 12 published works.",
+    "birth_date": "1979-04-14"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 18,
+  "fields": {
+    "name": "Susan Johnson",
+    "email": "susan.johnson@example.com",
+    "bio": "Susan Johnson is a renowned author with 3 published works.",
+    "birth_date": "1996-08-11"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 19,
+  "fields": {
+    "name": "Jennifer Martinez",
+    "email": "jennifer.martinez@example.com",
+    "bio": "Jennifer Martinez is a renowned author with 17 published works.",
+    "birth_date": "1979-07-25"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 20,
+  "fields": {
+    "name": "Mary Hernandez",
+    "email": "mary.hernandez@example.com",
+    "bio": "Mary Hernandez is a renowned author with 17 published works.",
+    "birth_date": "1998-08-18"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 21,
+  "fields": {
+    "name": "Susan Anderson",
+    "email": "susan.anderson@example.com",
+    "bio": "Susan Anderson is a renowned author with 15 published works.",
+    "birth_date": "1962-06-21"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 22,
+  "fields": {
+    "name": "Patricia Moore",
+    "email": "patricia.moore@example.com",
+    "bio": "Patricia Moore is a renowned author with 9 published works.",
+    "birth_date": "1995-03-04"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 23,
+  "fields": {
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "bio": "Michael Brown is a renowned author with 12 published works.",
+    "birth_date": "1985-01-14"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 24,
+  "fields": {
+    "name": "Jessica Jones",
+    "email": "jessica.jones@example.com",
+    "bio": "Jessica Jones is a renowned author with 17 published works.",
+    "birth_date": "1968-03-29"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 25,
+  "fields": {
+    "name": "Barbara Anderson",
+    "email": "barbara.anderson@example.com",
+    "bio": "Barbara Anderson is a renowned author with 9 published works.",
+    "birth_date": "1982-01-14"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 26,
+  "fields": {
+    "name": "Richard Davis",
+    "email": "richard.davis@example.com",
+    "bio": "Richard Davis is a renowned author with 6 published works.",
+    "birth_date": "1966-09-06"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 27,
+  "fields": {
+    "name": "John Martinez",
+    "email": "john.martinez@example.com",
+    "bio": "John Martinez is a renowned author with 4 published works.",
+    "birth_date": "2004-08-29"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 28,
+  "fields": {
+    "name": "Linda Jackson",
+    "email": "linda.jackson@example.com",
+    "bio": "Linda Jackson is a renowned author with 11 published works.",
+    "birth_date": "1976-07-11"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 29,
+  "fields": {
+    "name": "James Thomas",
+    "email": "james.thomas@example.com",
+    "bio": "James Thomas is a renowned author with 16 published works.",
+    "birth_date": "1998-06-30"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 30,
+  "fields": {
+    "name": "Robert Rodriguez",
+    "email": "robert.rodriguez@example.com",
+    "bio": "Robert Rodriguez is a renowned author with 4 published works.",
+    "birth_date": "1957-02-25"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 31,
+  "fields": {
+    "name": "Charles Jackson",
+    "email": "charles.jackson@example.com",
+    "bio": "Charles Jackson is a renowned author with 15 published works.",
+    "birth_date": "1998-09-26"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 32,
+  "fields": {
+    "name": "Jennifer Taylor",
+    "email": "jennifer.taylor@example.com",
+    "bio": "Jennifer Taylor is a renowned author with 15 published works.",
+    "birth_date": "1980-10-16"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 33,
+  "fields": {
+    "name": "Richard Martinez",
+    "email": "richard.martinez0@example.com",
+    "bio": "Richard Martinez is a renowned author with 10 published works.",
+    "birth_date": "1976-07-14"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 34,
+  "fields": {
+    "name": "Betty Thompson",
+    "email": "betty.thompson1@example.com",
+    "bio": "Betty Thompson is a renowned author with 20 published works.",
+    "birth_date": "1973-07-11"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 35,
+  "fields": {
+    "name": "Barbara Hernandez",
+    "email": "barbara.hernandez2@example.com",
+    "bio": "Barbara Hernandez is a renowned author with 6 published works.",
+    "birth_date": "1973-05-13"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 36,
+  "fields": {
+    "name": "Jessica Moore",
+    "email": "jessica.moore3@example.com",
+    "bio": "Jessica Moore is a renowned author with 2 published works.",
+    "birth_date": "1978-03-14"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 37,
+  "fields": {
+    "name": "Daniel Rodriguez",
+    "email": "daniel.rodriguez4@example.com",
+    "bio": "Daniel Rodriguez is a renowned author with 20 published works.",
+    "birth_date": "1964-10-06"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 38,
+  "fields": {
+    "name": "Karen White",
+    "email": "karen.white5@example.com",
+    "bio": "Karen White is a renowned author with 8 published works.",
+    "birth_date": "2003-07-23"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 39,
+  "fields": {
+    "name": "James Lee",
+    "email": "james.lee6@example.com",
+    "bio": "James Lee is a renowned author with 20 published works.",
+    "birth_date": "1988-09-10"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 40,
+  "fields": {
+    "name": "Elizabeth Martin",
+    "email": "elizabeth.martin7@example.com",
+    "bio": "Elizabeth Martin is a renowned author with 12 published works.",
+    "birth_date": "1956-05-05"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 41,
+  "fields": {
+    "name": "Robert Garcia",
+    "email": "robert.garcia8@example.com",
+    "bio": "Robert Garcia is a renowned author with 13 published works.",
+    "birth_date": "1977-12-12"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 42,
+  "fields": {
+    "name": "Sarah Jackson",
+    "email": "sarah.jackson9@example.com",
+    "bio": "Sarah Jackson is a renowned author with 6 published works.",
+    "birth_date": "1994-08-26"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 43,
+  "fields": {
+    "name": "Joseph Jones",
+    "email": "joseph.jones10@example.com",
+    "bio": "Joseph Jones is a renowned author with 15 published works.",
+    "birth_date": "1960-02-08"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 44,
+  "fields": {
+    "name": "Matthew Thomas",
+    "email": "matthew.thomas11@example.com",
+    "bio": "Matthew Thomas is a renowned author with 3 published works.",
+    "birth_date": "1966-01-19"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 45,
+  "fields": {
+    "name": "David Anderson",
+    "email": "david.anderson12@example.com",
+    "bio": "David Anderson is a renowned author with 7 published works.",
+    "birth_date": "1981-12-27"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 46,
+  "fields": {
+    "name": "Paul Davis",
+    "email": "paul.davis13@example.com",
+    "bio": "Paul Davis is a renowned author with 10 published works.",
+    "birth_date": "1964-08-11"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 47,
+  "fields": {
+    "name": "Patricia Johnson",
+    "email": "patricia.johnson14@example.com",
+    "bio": "Patricia Johnson is a renowned author with 4 published works.",
+    "birth_date": "1961-02-01"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 48,
+  "fields": {
+    "name": "Nancy Taylor",
+    "email": "nancy.taylor15@example.com",
+    "bio": "Nancy Taylor is a renowned author with 6 published works.",
+    "birth_date": "1988-12-07"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 49,
+  "fields": {
+    "name": "Anthony Wilson",
+    "email": "anthony.wilson16@example.com",
+    "bio": "Anthony Wilson is a renowned author with 16 published works.",
+    "birth_date": "2001-05-17"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 50,
+  "fields": {
+    "name": "Michael Clark",
+    "email": "michael.clark17@example.com",
+    "bio": "Michael Clark is a renowned author with 2 published works.",
+    "birth_date": "1996-04-12"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 51,
+  "fields": {
+    "name": "Thomas Lewis",
+    "email": "thomas.lewis18@example.com",
+    "bio": "Thomas Lewis is a renowned author with 17 published works.",
+    "birth_date": "1990-09-21"
+  }
+},
+{
+  "model": "myapp.author",
+  "pk": 52,
+  "fields": {
+    "name": "Jennifer Miller",
+    "email": "jennifer.miller19@example.com",
+    "bio": "Jennifer Miller is a renowned author with 14 published works.",
+    "birth_date": "2001-11-30"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 1,
+  "fields": {
+    "name": "Penguin Random House",
+    "address": "114 Oak St, Sydney",
+    "website": "https://www.penguin-random-house.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 2,
+  "fields": {
+    "name": "HarperCollins",
+    "address": "58 Oak St, New York",
+    "website": "https://www.harpercollins.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 3,
+  "fields": {
+    "name": "Simon & Schuster",
+    "address": "493 Maple St, Toronto",
+    "website": "https://www.simon-schuster.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 4,
+  "fields": {
+    "name": "Macmillan",
+    "address": "362 Oak St, Toronto",
+    "website": "https://www.macmillan.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 5,
+  "fields": {
+    "name": "Hachette",
+    "address": "134 Pine St, Sydney",
+    "website": "https://www.hachette.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 6,
+  "fields": {
+    "name": "Scholastic",
+    "address": "20 Main St, Sydney",
+    "website": "https://www.scholastic.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 7,
+  "fields": {
+    "name": "Pearson",
+    "address": "16 Pine St, New York",
+    "website": "https://www.pearson.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 8,
+  "fields": {
+    "name": "Oxford University Press",
+    "address": "146 Main St, Sydney",
+    "website": "https://www.oxford-university-press.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 9,
+  "fields": {
+    "name": "Cambridge University Press",
+    "address": "495 Main St, London",
+    "website": "https://www.cambridge-university-press.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 10,
+  "fields": {
+    "name": "Wiley",
+    "address": "254 Main St, Sydney",
+    "website": "https://www.wiley.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 11,
+  "fields": {
+    "name": "Bloomsbury",
+    "address": "420 Main St, London",
+    "website": "https://www.bloomsbury.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 12,
+  "fields": {
+    "name": "Pan Macmillan",
+    "address": "141 Pine St, London",
+    "website": "https://www.pan-macmillan.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 13,
+  "fields": {
+    "name": "Allen & Unwin",
+    "address": "482 Oak St, New York",
+    "website": "https://www.allen-unwin.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 14,
+  "fields": {
+    "name": "Houghton Mifflin Harcourt",
+    "address": "250 Pine St, New York",
+    "website": "https://www.houghton-mifflin-harcourt.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 15,
+  "fields": {
+    "name": "Workman Publishing",
+    "address": "52 Maple St, London",
+    "website": "https://www.workman-publishing.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 16,
+  "fields": {
+    "name": "Chronicle Books",
+    "address": "180 Main St, Sydney",
+    "website": "https://www.chronicle-books.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 17,
+  "fields": {
+    "name": "Abrams",
+    "address": "297 Oak St, Toronto",
+    "website": "https://www.abrams.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 18,
+  "fields": {
+    "name": "Walker Books",
+    "address": "125 Oak St, London",
+    "website": "https://www.walker-books.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 19,
+  "fields": {
+    "name": "Egmont",
+    "address": "360 Pine St, Toronto",
+    "website": "https://www.egmont.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 20,
+  "fields": {
+    "name": "Usborne",
+    "address": "197 Oak St, Sydney",
+    "website": "https://www.usborne.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 21,
+  "fields": {
+    "name": "Penguin Random House",
+    "address": "399 Maple St, Sydney",
+    "website": "https://www.penguin-random-house.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 22,
+  "fields": {
+    "name": "HarperCollins",
+    "address": "397 Maple St, Sydney",
+    "website": "https://www.harpercollins.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 23,
+  "fields": {
+    "name": "Simon & Schuster",
+    "address": "171 Main St, London",
+    "website": "https://www.simon-schuster.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 24,
+  "fields": {
+    "name": "Macmillan",
+    "address": "249 Maple St, Toronto",
+    "website": "https://www.macmillan.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 25,
+  "fields": {
+    "name": "Hachette",
+    "address": "476 Maple St, Toronto",
+    "website": "https://www.hachette.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 26,
+  "fields": {
+    "name": "Scholastic",
+    "address": "308 Oak St, New York",
+    "website": "https://www.scholastic.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 27,
+  "fields": {
+    "name": "Pearson",
+    "address": "304 Main St, Sydney",
+    "website": "https://www.pearson.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 28,
+  "fields": {
+    "name": "Oxford University Press",
+    "address": "302 Main St, Sydney",
+    "website": "https://www.oxford-university-press.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 29,
+  "fields": {
+    "name": "Cambridge University Press",
+    "address": "482 Maple St, New York",
+    "website": "https://www.cambridge-university-press.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 30,
+  "fields": {
+    "name": "Wiley",
+    "address": "439 Oak St, London",
+    "website": "https://www.wiley.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 31,
+  "fields": {
+    "name": "Bloomsbury",
+    "address": "330 Oak St, London",
+    "website": "https://www.bloomsbury.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 32,
+  "fields": {
+    "name": "Pan Macmillan",
+    "address": "420 Maple St, Sydney",
+    "website": "https://www.pan-macmillan.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 33,
+  "fields": {
+    "name": "Allen & Unwin",
+    "address": "366 Main St, New York",
+    "website": "https://www.allen-unwin.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 34,
+  "fields": {
+    "name": "Houghton Mifflin Harcourt",
+    "address": "315 Oak St, Toronto",
+    "website": "https://www.houghton-mifflin-harcourt.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 35,
+  "fields": {
+    "name": "Workman Publishing",
+    "address": "238 Main St, Toronto",
+    "website": "https://www.workman-publishing.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 36,
+  "fields": {
+    "name": "Chronicle Books",
+    "address": "173 Main St, Sydney",
+    "website": "https://www.chronicle-books.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 37,
+  "fields": {
+    "name": "Abrams",
+    "address": "143 Maple St, New York",
+    "website": "https://www.abrams.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 38,
+  "fields": {
+    "name": "Walker Books",
+    "address": "23 Oak St, New York",
+    "website": "https://www.walker-books.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 39,
+  "fields": {
+    "name": "Egmont",
+    "address": "322 Pine St, London",
+    "website": "https://www.egmont.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 40,
+  "fields": {
+    "name": "Usborne",
+    "address": "423 Main St, New York",
+    "website": "https://www.usborne.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 41,
+  "fields": {
+    "name": "Penguin Random House",
+    "address": "413 Pine St, New York",
+    "website": "https://www.penguin-random-house.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 42,
+  "fields": {
+    "name": "HarperCollins",
+    "address": "212 Maple St, New York",
+    "website": "https://www.harpercollins.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 43,
+  "fields": {
+    "name": "Simon & Schuster",
+    "address": "317 Oak St, Toronto",
+    "website": "https://www.simon-schuster.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 44,
+  "fields": {
+    "name": "Macmillan",
+    "address": "249 Maple St, Sydney",
+    "website": "https://www.macmillan.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 45,
+  "fields": {
+    "name": "Hachette",
+    "address": "266 Maple St, New York",
+    "website": "https://www.hachette.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 46,
+  "fields": {
+    "name": "Scholastic",
+    "address": "260 Pine St, New York",
+    "website": "https://www.scholastic.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 47,
+  "fields": {
+    "name": "Pearson",
+    "address": "320 Main St, New York",
+    "website": "https://www.pearson.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 48,
+  "fields": {
+    "name": "Oxford University Press",
+    "address": "53 Pine St, London",
+    "website": "https://www.oxford-university-press.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 49,
+  "fields": {
+    "name": "Cambridge University Press",
+    "address": "479 Oak St, New York",
+    "website": "https://www.cambridge-university-press.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 50,
+  "fields": {
+    "name": "Wiley",
+    "address": "133 Main St, Toronto",
+    "website": "https://www.wiley.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 51,
+  "fields": {
+    "name": "Bloomsbury",
+    "address": "244 Main St, Sydney",
+    "website": "https://www.bloomsbury.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 52,
+  "fields": {
+    "name": "Pan Macmillan",
+    "address": "411 Main St, New York",
+    "website": "https://www.pan-macmillan.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 53,
+  "fields": {
+    "name": "Allen & Unwin",
+    "address": "423 Oak St, New York",
+    "website": "https://www.allen-unwin.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 54,
+  "fields": {
+    "name": "Houghton Mifflin Harcourt",
+    "address": "249 Main St, New York",
+    "website": "https://www.houghton-mifflin-harcourt.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 55,
+  "fields": {
+    "name": "Workman Publishing",
+    "address": "144 Maple St, Toronto",
+    "website": "https://www.workman-publishing.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 56,
+  "fields": {
+    "name": "Chronicle Books",
+    "address": "227 Main St, London",
+    "website": "https://www.chronicle-books.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 57,
+  "fields": {
+    "name": "Abrams",
+    "address": "211 Maple St, Toronto",
+    "website": "https://www.abrams.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 58,
+  "fields": {
+    "name": "Walker Books",
+    "address": "430 Maple St, New York",
+    "website": "https://www.walker-books.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 59,
+  "fields": {
+    "name": "Egmont",
+    "address": "265 Pine St, Sydney",
+    "website": "https://www.egmont.com"
+  }
+},
+{
+  "model": "myapp.publisher",
+  "pk": 60,
+  "fields": {
+    "name": "Usborne",
+    "address": "113 Pine St, London",
+    "website": "https://www.usborne.com"
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 1,
+  "fields": {
+    "title": "The Silent Patient",
+    "author": 1,
+    "publication_date": "2012-02-06",
+    "genre": "SCI",
+    "price": "26.89",
+    "isbn": "8719346873555",
+    "publishers": [
+      1,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 2,
+  "fields": {
+    "title": "Where the Crawdads Sing",
+    "author": 4,
+    "publication_date": "2014-08-25",
+    "genre": "FIC",
+    "price": "21.61",
+    "isbn": "7369563520701",
+    "publishers": [
+      4,
+      6,
+      13
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 3,
+  "fields": {
+    "title": "The Guest List",
+    "author": 12,
+    "publication_date": "2019-09-14",
+    "genre": "HIS",
+    "price": "7.04",
+    "isbn": "1362463629784",
+    "publishers": [
+      6,
+      14
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 4,
+  "fields": {
+    "title": "Educated",
+    "author": 16,
+    "publication_date": "2023-10-07",
+    "genre": "SCI",
+    "price": "25.90",
+    "isbn": "2545553717605",
+    "publishers": [
+      3
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 5,
+  "fields": {
+    "title": "Becoming",
+    "author": 15,
+    "publication_date": "2008-09-24",
+    "genre": "FIC",
+    "price": "19.04",
+    "isbn": "0801729947650",
+    "publishers": [
+      4,
+      10
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 6,
+  "fields": {
+    "title": "The Testaments",
+    "author": 5,
+    "publication_date": "2011-02-27",
+    "genre": "HIS",
+    "price": "14.68",
+    "isbn": "4356196168123",
+    "publishers": [
+      6,
+      7,
+      13
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 7,
+  "fields": {
+    "title": "Normal People",
+    "author": 13,
+    "publication_date": "2019-07-05",
+    "genre": "NF",
+    "price": "9.70",
+    "isbn": "4779225323914",
+    "publishers": [
+      12
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 8,
+  "fields": {
+    "title": "The Dutch House",
+    "author": 10,
+    "publication_date": "2010-06-10",
+    "genre": "FIC",
+    "price": "15.14",
+    "isbn": "6421637722941",
+    "publishers": [
+      14,
+      16
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 9,
+  "fields": {
+    "title": "Little Fires Everywhere",
+    "author": 18,
+    "publication_date": "2021-10-29",
+    "genre": "SCI",
+    "price": "13.43",
+    "isbn": "0489790891800",
+    "publishers": [
+      10
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 10,
+  "fields": {
+    "title": "The Institute",
+    "author": 4,
+    "publication_date": "2006-07-02",
+    "genre": "HIS",
+    "price": "23.28",
+    "isbn": "6459677294625",
+    "publishers": [
+      18
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 11,
+  "fields": {
+    "title": "The Water Dancer",
+    "author": 17,
+    "publication_date": "2005-09-28",
+    "genre": "NF",
+    "price": "15.45",
+    "isbn": "6876771308914",
+    "publishers": [
+      13,
+      19
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 12,
+  "fields": {
+    "title": "The Giver of Stars",
+    "author": 19,
+    "publication_date": "2005-10-12",
+    "genre": "SCI",
+    "price": "7.01",
+    "isbn": "7792654750344",
+    "publishers": [
+      1,
+      18
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 13,
+  "fields": {
+    "title": "Such a Fun Age",
+    "author": 13,
+    "publication_date": "2013-07-09",
+    "genre": "SCI",
+    "price": "16.16",
+    "isbn": "2022072732507",
+    "publishers": [
+      8,
+      16
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 14,
+  "fields": {
+    "title": "The Starless Sea",
+    "author": 1,
+    "publication_date": "2024-11-06",
+    "genre": "FIC",
+    "price": "26.31",
+    "isbn": "9243177859843",
+    "publishers": [
+      9,
+      14,
+      20
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 15,
+  "fields": {
+    "title": "The Night Fire",
+    "author": 7,
+    "publication_date": "2021-05-11",
+    "genre": "FIC",
+    "price": "12.34",
+    "isbn": "7599167116921",
+    "publishers": [
+      5,
+      7,
+      12
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 16,
+  "fields": {
+    "title": "The Family Upstairs",
+    "author": 10,
+    "publication_date": "2022-10-09",
+    "genre": "SCI",
+    "price": "18.75",
+    "isbn": "5156067334364",
+    "publishers": [
+      2,
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 17,
+  "fields": {
+    "title": "The Silent Patient",
+    "author": 11,
+    "publication_date": "2018-08-31",
+    "genre": "NF",
+    "price": "15.36",
+    "isbn": "6493817235177",
+    "publishers": [
+      8,
+      11
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 18,
+  "fields": {
+    "title": "Nine Perfect Strangers",
+    "author": 17,
+    "publication_date": "2022-08-27",
+    "genre": "SCI",
+    "price": "25.54",
+    "isbn": "5135444223268",
+    "publishers": [
+      1,
+      20
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 19,
+  "fields": {
+    "title": "City of Girls",
+    "author": 3,
+    "publication_date": "2011-11-06",
+    "genre": "HIS",
+    "price": "22.15",
+    "isbn": "7643092363804",
+    "publishers": [
+      18
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 20,
+  "fields": {
+    "title": "The Tattooist of Auschwitz",
+    "author": 18,
+    "publication_date": "2015-12-13",
+    "genre": "HIS",
+    "price": "19.64",
+    "isbn": "0523640568739",
+    "publishers": [
+      12,
+      16
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 21,
+  "fields": {
+    "title": "The Silent Patient",
+    "author": 15,
+    "publication_date": "2019-04-12",
+    "genre": "NF",
+    "price": "9.35",
+    "isbn": "7490417768369",
+    "publishers": [
+      3,
+      32
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 22,
+  "fields": {
+    "title": "Where the Crawdads Sing",
+    "author": 7,
+    "publication_date": "2013-03-06",
+    "genre": "FIC",
+    "price": "15.78",
+    "isbn": "5760696749218",
+    "publishers": [
+      6,
+      17,
+      37
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 23,
+  "fields": {
+    "title": "The Guest List",
+    "author": 6,
+    "publication_date": "2006-05-15",
+    "genre": "SCI",
+    "price": "8.26",
+    "isbn": "9132424178292",
+    "publishers": [
+      14,
+      32
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 24,
+  "fields": {
+    "title": "Educated",
+    "author": 10,
+    "publication_date": "2008-09-08",
+    "genre": "HIS",
+    "price": "26.64",
+    "isbn": "1539769736118",
+    "publishers": [
+      19
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 25,
+  "fields": {
+    "title": "Becoming",
+    "author": 18,
+    "publication_date": "2007-05-23",
+    "genre": "FIC",
+    "price": "26.66",
+    "isbn": "6617917829071",
+    "publishers": [
+      27,
+      40
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 26,
+  "fields": {
+    "title": "The Testaments",
+    "author": 31,
+    "publication_date": "2008-10-29",
+    "genre": "SCI",
+    "price": "9.46",
+    "isbn": "4715806381948",
+    "publishers": [
+      8,
+      19,
+      24
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 27,
+  "fields": {
+    "title": "Normal People",
+    "author": 20,
+    "publication_date": "2022-12-13",
+    "genre": "SCI",
+    "price": "10.76",
+    "isbn": "3550410572588",
+    "publishers": [
+      34
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 28,
+  "fields": {
+    "title": "The Dutch House",
+    "author": 32,
+    "publication_date": "2017-09-13",
+    "genre": "SCI",
+    "price": "8.32",
+    "isbn": "1665963067552",
+    "publishers": [
+      8,
+      21
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 29,
+  "fields": {
+    "title": "Little Fires Everywhere",
+    "author": 31,
+    "publication_date": "2009-06-22",
+    "genre": "FIC",
+    "price": "7.56",
+    "isbn": "0335524829436",
+    "publishers": [
+      22
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 30,
+  "fields": {
+    "title": "The Institute",
+    "author": 31,
+    "publication_date": "2014-10-03",
+    "genre": "NF",
+    "price": "20.00",
+    "isbn": "6359829381859",
+    "publishers": [
+      18
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 31,
+  "fields": {
+    "title": "The Water Dancer",
+    "author": 11,
+    "publication_date": "2015-12-18",
+    "genre": "FIC",
+    "price": "10.94",
+    "isbn": "1766571168400",
+    "publishers": [
+      26,
+      32,
+      36
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 32,
+  "fields": {
+    "title": "The Giver of Stars",
+    "author": 25,
+    "publication_date": "2007-12-06",
+    "genre": "SCI",
+    "price": "25.29",
+    "isbn": "3404266954193",
+    "publishers": [
+      32
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 33,
+  "fields": {
+    "title": "Such a Fun Age",
+    "author": 12,
+    "publication_date": "2022-01-04",
+    "genre": "NF",
+    "price": "10.89",
+    "isbn": "4319548308525",
+    "publishers": [
+      28
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 34,
+  "fields": {
+    "title": "The Starless Sea",
+    "author": 30,
+    "publication_date": "2023-03-03",
+    "genre": "NF",
+    "price": "14.50",
+    "isbn": "1934011798614",
+    "publishers": [
+      7,
+      20,
+      33
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 35,
+  "fields": {
+    "title": "The Night Fire",
+    "author": 15,
+    "publication_date": "2023-01-28",
+    "genre": "SCI",
+    "price": "23.86",
+    "isbn": "1069241262476",
+    "publishers": [
+      18
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 36,
+  "fields": {
+    "title": "The Family Upstairs",
+    "author": 20,
+    "publication_date": "2017-06-07",
+    "genre": "NF",
+    "price": "18.33",
+    "isbn": "5057536315003",
+    "publishers": [
+      6,
+      31
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 37,
+  "fields": {
+    "title": "The Silent Patient",
+    "author": 10,
+    "publication_date": "2019-05-25",
+    "genre": "NF",
+    "price": "23.65",
+    "isbn": "8751724846371",
+    "publishers": [
+      13,
+      28,
+      37
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 38,
+  "fields": {
+    "title": "Nine Perfect Strangers",
+    "author": 22,
+    "publication_date": "2019-05-29",
+    "genre": "FIC",
+    "price": "19.14",
+    "isbn": "7903351490772",
+    "publishers": [
+      40
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 39,
+  "fields": {
+    "title": "City of Girls",
+    "author": 32,
+    "publication_date": "2012-08-20",
+    "genre": "HIS",
+    "price": "7.39",
+    "isbn": "1432524420976",
+    "publishers": [
+      11,
+      26
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 40,
+  "fields": {
+    "title": "The Tattooist of Auschwitz",
+    "author": 32,
+    "publication_date": "2007-01-05",
+    "genre": "FIC",
+    "price": "12.60",
+    "isbn": "3653659353697",
+    "publishers": [
+      19
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 41,
+  "fields": {
+    "title": "The Silent Patient",
+    "author": 36,
+    "publication_date": "2010-11-08",
+    "genre": "SCI",
+    "price": "29.42",
+    "isbn": "0309900352471",
+    "publishers": [
+      32,
+      33,
+      53
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 42,
+  "fields": {
+    "title": "Where the Crawdads Sing",
+    "author": 52,
+    "publication_date": "2017-08-03",
+    "genre": "HIS",
+    "price": "20.07",
+    "isbn": "5864699700364",
+    "publishers": [
+      27
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 43,
+  "fields": {
+    "title": "The Guest List",
+    "author": 21,
+    "publication_date": "2008-10-10",
+    "genre": "HIS",
+    "price": "26.53",
+    "isbn": "0659799717203",
+    "publishers": [
+      28,
+      29
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 44,
+  "fields": {
+    "title": "Educated",
+    "author": 10,
+    "publication_date": "2022-12-27",
+    "genre": "HIS",
+    "price": "12.99",
+    "isbn": "0173306875594",
+    "publishers": [
+      49,
+      51
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 45,
+  "fields": {
+    "title": "Becoming",
+    "author": 30,
+    "publication_date": "2008-11-10",
+    "genre": "NF",
+    "price": "28.65",
+    "isbn": "9126624545530",
+    "publishers": [
+      31
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 46,
+  "fields": {
+    "title": "The Testaments",
+    "author": 30,
+    "publication_date": "2007-12-14",
+    "genre": "SCI",
+    "price": "24.30",
+    "isbn": "4532148466578",
+    "publishers": [
+      50,
+      57
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 47,
+  "fields": {
+    "title": "Normal People",
+    "author": 31,
+    "publication_date": "2007-12-02",
+    "genre": "SCI",
+    "price": "22.78",
+    "isbn": "9601625818971",
+    "publishers": [
+      25,
+      29,
+      53
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 48,
+  "fields": {
+    "title": "The Dutch House",
+    "author": 22,
+    "publication_date": "2008-05-06",
+    "genre": "NF",
+    "price": "8.40",
+    "isbn": "9583632649067",
+    "publishers": [
+      28
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 49,
+  "fields": {
+    "title": "Little Fires Everywhere",
+    "author": 16,
+    "publication_date": "2011-07-10",
+    "genre": "NF",
+    "price": "23.72",
+    "isbn": "2625114866140",
+    "publishers": [
+      2,
+      35,
+      58
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 50,
+  "fields": {
+    "title": "The Institute",
+    "author": 36,
+    "publication_date": "2009-09-27",
+    "genre": "NF",
+    "price": "15.31",
+    "isbn": "2246799934053",
+    "publishers": [
+      21,
+      58,
+      59
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 51,
+  "fields": {
+    "title": "The Water Dancer",
+    "author": 16,
+    "publication_date": "2019-06-18",
+    "genre": "NF",
+    "price": "14.94",
+    "isbn": "7912537190774",
+    "publishers": [
+      4,
+      14,
+      44
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 52,
+  "fields": {
+    "title": "The Giver of Stars",
+    "author": 26,
+    "publication_date": "2022-12-06",
+    "genre": "SCI",
+    "price": "15.67",
+    "isbn": "9670142692679",
+    "publishers": [
+      3
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 53,
+  "fields": {
+    "title": "Such a Fun Age",
+    "author": 20,
+    "publication_date": "2008-03-11",
+    "genre": "HIS",
+    "price": "9.74",
+    "isbn": "9352873031218",
+    "publishers": [
+      33
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 54,
+  "fields": {
+    "title": "The Starless Sea",
+    "author": 5,
+    "publication_date": "2009-10-19",
+    "genre": "HIS",
+    "price": "22.80",
+    "isbn": "8203838706695",
+    "publishers": [
+      5,
+      7,
+      59
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 55,
+  "fields": {
+    "title": "The Night Fire",
+    "author": 25,
+    "publication_date": "2024-03-30",
+    "genre": "FIC",
+    "price": "16.42",
+    "isbn": "4746807098378",
+    "publishers": [
+      11
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 56,
+  "fields": {
+    "title": "The Family Upstairs",
+    "author": 19,
+    "publication_date": "2008-11-05",
+    "genre": "HIS",
+    "price": "27.35",
+    "isbn": "7294144802115",
+    "publishers": [
+      37
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 57,
+  "fields": {
+    "title": "The Silent Patient",
+    "author": 30,
+    "publication_date": "2006-05-05",
+    "genre": "HIS",
+    "price": "15.12",
+    "isbn": "2630959202939",
+    "publishers": [
+      6
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 58,
+  "fields": {
+    "title": "Nine Perfect Strangers",
+    "author": 13,
+    "publication_date": "2014-01-02",
+    "genre": "FIC",
+    "price": "27.46",
+    "isbn": "8487310070038",
+    "publishers": [
+      5,
+      16
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 59,
+  "fields": {
+    "title": "City of Girls",
+    "author": 26,
+    "publication_date": "2011-08-28",
+    "genre": "HIS",
+    "price": "10.14",
+    "isbn": "7987501303286",
+    "publishers": [
+      7,
+      8,
+      30
+    ]
+  }
+},
+{
+  "model": "myapp.book",
+  "pk": 60,
+  "fields": {
+    "title": "The Tattooist of Auschwitz",
+    "author": 17,
+    "publication_date": "2009-12-17",
+    "genre": "FIC",
+    "price": "15.61",
+    "isbn": "7429699550982",
+    "publishers": [
+      54
+    ]
+  }
+}
+]

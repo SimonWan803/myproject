@@ -1,0 +1,76 @@
+<!-- templates/combined_table.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Combined Data Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+            position: sticky;
+            top: 0;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        .genre-FIC { color: #2196F3; }
+        .genre-NF { color: #4CAF50; }
+        .genre-SCI { color: #f44336; }
+        .genre-HIS { color: #FF9800; }
+    </style>
+</head>
+<body>
+    <h1>Library Database Overview</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Author Email</th>
+                <th>Publishers</th>
+                <th>Publication Date</th>
+                <th>Genre</th>
+                <th>Price</th>
+                <th>ISBN</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for book in books %}
+            <tr>
+                <td>{{ book.title }}</td>
+                <td>{{ book.author.name }}</td>
+                <td>{{ book.author.email }}</td>
+                <td>
+                    {% for publisher in book.publishers.all %}
+                        <div>{{ publisher.name }}</div>
+                        <div style="font-size: 0.8em; color: #666;">
+                            {{ publisher.address }}<br>
+                            <a href="{{ publisher.website }}" target="_blank">Website</a>
+                        </div>
+                        {% if not forloop.last %}<hr style="margin: 5px 0;">{% endif %}
+                    {% endfor %}
+                </td>
+                <td>{{ book.publication_date|date:"Y-m-d" }}</td>
+                <td class="genre-{{ book.genre }}">{{ book.get_genre_display }}</td>
+                <td>${{ book.price }}</td>
+                <td>{{ book.isbn }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

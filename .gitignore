@@ -1,0 +1,14 @@
+# Django 相关
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+env/
+venv/
+
+# 敏感数据
+.env
+*.env
+secrets.json
