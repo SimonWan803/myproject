@@ -1,4 +1,4 @@
-Firstly, ccreate Django model, myproject>setting.py>installed_apps+'myapp',
+Firstly, create Django model, myproject>setting.py>installed_apps+'myapp',
 
 myapp(models.py) 3 class
 
